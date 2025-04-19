@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "sleep-indicator",
+	"version": "${version}",
+	"name": "Sleep Indicator",
+	"description": "Adds a boss-bar indicator when players are sleeping",
+	"authors": [
+		"poum"
+	],
+	"contact": {
+		"homepage": "https://poum.ca",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sleep-indicator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ca.poum.SleepIndicator"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"afkplus": "~1.7.5"
+	}
+}
